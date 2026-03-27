@@ -1,0 +1,19 @@
+.country {
+  border: 1px solid salmon;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.country img {
+  border-radius: 10px;
+  width: 100%;
+}
+.btn {
+  background-color: #16171d;
+  padding: 10px;
+  border: 1px solid rgba(220, 210, 210, 0.3);
+  border-radius: 10px;
+}
+.btn:hover {
+  border: 2px solid white;
+}
