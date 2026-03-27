@@ -1,10 +1,10 @@
 .country {
-  border: 1px solid salmon;
+  border: 2px solid salmon;
   border-radius: 10px;
   text-align: center;
   padding: 10px;
 }
-.country img {
+.flag {
   border-radius: 10px;
   width: 100%;
 }
@@ -16,4 +16,10 @@
 }
 .btn:hover {
   border: 2px solid white;
+}
+.country-visited {
+  border: 2px solid green;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
 }

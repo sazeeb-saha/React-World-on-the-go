@@ -5,12 +5,16 @@ const Country = ({ country }) => {
   //   console.log(country);
   const [visited, setVisited] = useState(false);
   const handleVisit = () => {
-    setVisited(true);
+    setVisited(!visited);
   };
 
   return (
-    <div className="country">
-      <img src={country.flags.flags.png} alt={country.flags.flags.alt} />
+    <div className={`${visited ? "country-visited" : "country"}`}>
+      <img
+        className="flag"
+        src={country.flags.flags.png}
+        alt={country.flags.flags.alt}
+      />
       <h2>Name: {country.name.common} </h2>
       <h4>Population: {country.population.population} </h4>
       <h4>
